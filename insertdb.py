@@ -15,7 +15,7 @@ calibration_params = bme280.load_calibration_params(bus,address)
 
 
 
-db = MySQLdb.connect("localhost","mysql_user","tajnehaslo","DB_POMIARY")
+db = MySQLdb.connect("localhost","mysql_user","*****","DB_POMIARY")
 c = db.cursor()
 
 
