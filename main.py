@@ -28,7 +28,7 @@ def search():
     mydb = mysql.connector.connect(
         host="192.168.1.90",
         user="mysql_user2",
-        passwd="cycol101",
+        passwd="*****",
         database="DB_POMIARY"
     )
     c = mydb.cursor()
